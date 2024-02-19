@@ -86,21 +86,21 @@ function showCards()
     // Cambia el color del botón Prev si estás en la página inicial
     if (currentPage === 1) 
     {
-        prevButton.style.backgroundColor = '#a0a0a0'; // Cambia el color a tu elección
+        prevButton.style.backgroundColor = '#a0a0a0';
     } 
     else 
     {
-        prevButton.style.backgroundColor = '#008000'; // Restablece el color predeterminado
+        prevButton.style.backgroundColor = '#008000'; 
     }
 
     // Cambia el color del botón Next si estás en la última página
     if (currentPage === totalPages) 
     {
-        nextButton.style.backgroundColor = '#a0a0a0'; // Cambia el color a tu elección
+        nextButton.style.backgroundColor = '#a0a0a0'; 
     } 
     else 
     {
-        nextButton.style.backgroundColor = '#008000'; // Restablece el color predeterminado
+        nextButton.style.backgroundColor = '#008000'; 
     }
 
 }
@@ -136,7 +136,7 @@ $(document).ready(function()
 
         $('.card_products').filter(function() 
         {
-         var plantName = $(this).attr('name-silver').toLowerCase(); // Obtener el nombre de la plata en minúsculas
+         var plantName = $(this).attr('name-silver').toLowerCase(); // Obtener el nombre de la planta en minúsculas
 
             if (plantName.includes(search)) 
             {
@@ -208,7 +208,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     else 
     {
         box_message.style.display = 'grid'; // Mostrar el mensaje de éxito
-        event.preventDefault(); // Evita que el formulario se envíe realmente
+        event.preventDefault(); 
 
         accept.onclick = () =>
         {
