@@ -1,0 +1,263 @@
+@media (max-width: 1255px) 
+{
+    .container_about_us .img_about_us
+    {
+        width: 500px;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 1059px) 
+{
+    /*************************** HEADER ***************************/ 
+    #bars
+    {
+        display: flex;
+    }
+
+    nav
+    {
+        height: 0;
+        width: 200px;
+        position: absolute;
+        justify-items: left;
+        right: 20px;
+        top: 70px;
+        overflow: hidden;
+        box-shadow: 0px 0px 30px -20px rgb(0, 0, 0) ;
+        transition: all 300ms;
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+        background: #9fc99f;
+        gap: 24px;
+    }
+
+    nav ul li
+    {
+        padding: 8px 15px;
+    }
+
+    nav ul li a
+    {
+        color: #242424;;
+    }
+
+    .mostrar_menu /*CLASE MANIPILADA POR JS*/
+    {
+        height: 235px;
+    }
+
+    /*************************** HOME ***************************/
+    .img_home .img__
+    {
+        width: 400px;
+        height: 400px;
+    }
+
+    /*************************** ABOUT US ***************************/
+    .container_about_us .img_about_us
+    {
+        display: none;
+    }
+
+    .container_about_us .txt_about_us
+    {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 895px) 
+{
+    /*************************** HOME ***************************/
+    .home .container_home
+    {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        flex-direction: column-reverse;
+
+    }
+
+    .img_home .img__
+    {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container_home .txt_home
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .txt_home h1
+    {
+        font-size: 25px;
+    }
+
+    .txt_home a
+    {
+        padding: 8px 20px;
+    }
+
+    .container_home .img_home
+    {
+        width: 100%;
+    }
+
+    /*************************** CONTACT US ***************************/
+    .contact h1
+    {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .contact .container_contact
+    {
+        flex-direction: column;
+    }
+
+    .container_contact .text_contact
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container_contact .form_contact
+    {
+        width: 100%;
+    }
+
+    /*************************** FOOTER ***************************/
+    footer .container_footer
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .container_footer .text_contact
+    {
+        width: 100%;
+        border-top: 2px solid #bfbfc4;
+        border-bottom: 2px solid #bfbfc4;
+        border-left: none;
+        border-right: none;
+    }
+
+    .container_footer ul li 
+    {
+        text-align: center;
+    }
+
+    .container_footer .img_logo
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img_logo img
+    {
+        width: 100px;
+        height: 60px;
+    }
+
+
+    h1
+    {
+        font-size: 25px;
+    }
+
+    h2 
+    {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 469px)
+{
+    /*************************** HOME ***************************/
+    .img_home .img__
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container_home .txt_home h1
+    {
+       font-size: 20px;
+    }
+
+    .container_home .txt_home p 
+    {
+       font-size: 12px;
+    }
+
+    .container_home .txt_home a 
+    {
+       font-size: 12px;
+    }
+
+    .featured_products .container_featured,
+    .products .container_products
+    {
+        width: 100%;
+    }
+
+    .container_featured .card_featured,
+    .container_products .card_products
+    {
+        width: 250px;
+        height: 100px;
+        padding: 5px;
+    }
+
+    .card_featured .img_featured,
+    .card_products .img_products
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .desc_featured p,
+    .desc_products p
+    {
+        display: none;
+    }
+
+
+    .about_us h1, .contact h1 
+    {
+       font-size: 20px;
+    }
+
+    .about_us h2, .contact h2
+    {
+       font-size: 14px;
+    }
+
+    .container_contact .form_contact form
+    {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 375px) 
+{
+    .products .welcome
+    {
+        display: none;
+    }
+
+    .products h2
+    {
+        margin-bottom: 10px;
+    }
+}

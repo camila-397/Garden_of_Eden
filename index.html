@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4380b6d3aa.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <title>Garden of Eden</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./asset/logo/Logo_Garden_of_Eden.png" alt="">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home" class="select">Home</a></li>
+                <li><a href="#about_us">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+
+            <div class="icon_cart">
+                <i class="fa-solid fa-cart-shopping" id="cart"></i>
+                <span id="counter">0</span>
+            </div>
+
+            <i class="fa-solid fa-bars" id="bars"></i>
+        </div>
+
+    </header>
+
+
+    <div class="home" id="home">
+
+        <div class="container_home">
+
+            <div class="txt_home">
+                <h1>Explore the Green Paradise in Garden of Eden</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam adipisci consectetur 
+                    animi dolorem nam id quibusdam sapiente fuga commodi iure, praesentium, fugiat corporis.
+                </p>
+
+                <a href="#" target="_blank"><i class="fa-regular fa-message"></i> Write Us</a>
+            </div>
+
+            <div class="img_home">
+                <div class="img__">
+                    <img src="./asset/img/plant_home.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="featured_products">
+
+        <h2>Featured Products</h2>
+
+        <div class="container_featured">
+
+            <div class="card_featured">
+                <div class="img_featured">
+                    <img src="./asset/img/Pilea_peperomioides.png" alt="">
+                </div>
+                
+                <div class="desc_featured">
+                    <h4>Pilea</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$59.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_featured">
+                <div class="img_featured">
+                    <img src="./asset/img/anthurio.png" alt="">
+                </div>
+                
+                <div class="desc_featured">
+                    <h4>Anthurio</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$59.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_featured">
+                <div class="img_featured">
+                    <img src="./asset/img/Begonia.png" alt="">
+                </div>
+                
+                <div class="desc_featured">
+                    <h4>Begonia</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="about_us" id="about_us">
+        <h2>About Us</h2>
+
+        <div class="container_about_us">
+
+            <div class="txt_about_us">
+                <h1>Growing Dreams in the Garden of Eden</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum necessitatibus eveniet 
+                    perspiciatis tempora eius autem, quibusdam nisi nesciunt veritatis non laboriosam voluptatibus 
+                    velit inventore quaerat, qui ratione cumque dicta dolore?
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid dignissimos sed maxime possimus 
+                    laboriosam libero sunt maiores quae, excepturi, quaerat ut nihil debitis earum impedit tenetur, et 
+                    labore modi dolores.
+                </p>
+
+                <h3>What sets us apart</h3>
+                <div class="apart">
+                    <div class="quality">
+                        <span>Commitment to quality</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ducimus!
+                        </p>
+                    </div>
+                    <div class="sustainability">
+                        <span>Sustainability</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ducimus!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img_about_us">
+                <img src="./asset/img/plant_about_us.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="products" id="products">
+        <h2>Products</h2>
+
+        <p class="welcome">
+            Welcome to our product section, where you will discover an exquisite selection of plants and flowers.
+        </p>
+
+        <div class="group">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+            <input placeholder="Search" type="search" id="search">
+        </div>
+
+        <div class="container_products">
+
+            <div class="card_products" name-silver="Chrysanthemum">
+                <div class="img_products">
+                    <img src="./asset/img/Chrysanthemum.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Chrysanthemum</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_products" name-silver="Dahlia">
+                <div class="img_products">
+                    <img src="./asset/img/Dahlia.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Dahlia</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+            </div>
+
+
+            <div class="card_products" name-silver="Adiantum raddianum">
+                <div class="img_products">
+                    <img src="./asset/img/Adiantum_raddianum.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Adiantum</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_products" name-silver="Azalea">
+                <div class="img_products">
+                    <img src="./asset/img/Azalea.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Azalea</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$59.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_products" name-silver="Pilea peperomioides">
+                <div class="img_products">
+                    <img src="./asset/img/Pilea_peperomioides.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Pilea</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$59.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_products" name-silver="Calendula">
+                <div class="img_products">
+                    <img src="./asset/img/Calendula.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Calendula</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_products" name-silver="Anthurio">
+                <div class="img_products">
+                    <img src="./asset/img/anthurio.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Anthurio</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$59.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_products" name-silver="Calathea">
+                <div class="img_products">
+                    <img src="./asset/img/Calathea.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Calathea</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_products" name-silver="Begonia">
+                <div class="img_products">
+                    <img src="./asset/img/Begonia.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Begonia</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card_products" name-silver="Campanula">
+                <div class="img_products">
+                    <img src="./asset/img/Campanula.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Campánula</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+
+            </div>
+
+            <div class="card_products" name-silver="pink kisses">
+                <div class="img_products">
+                    <img src="./asset/img/PINK_KISSES.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Pink kisses</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card_products" name-silver="gerbera">
+                <div class="img_products">
+                    <img src="./asset/img/gerbera.png" alt="">
+                </div>
+                
+                <div class="desc_products">
+                    <h4>Gerbera</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <span>$60.99</span>
+                    <button class="cart-button" id="add">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="pagination">
+            <button id="prev"><i class="fa-solid fa-arrow-left"></i></i></button>
+            <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div> 
+
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <h1>We would love to hear from you and help you with anything you need!</h1>
+
+        <div class="container_contact">
+
+            <div class="text_contact">
+                <div class="address">
+                    <h4>Address:</h4>
+                    <span>123 Main Street, Apt 4B. Anytown, CA 12345-6789</span>
+                </div>
+                <div class="hour">
+                    <h4>Hours of Operation:</h4>
+                    <span>from Monday to Friday: 8:30 a.m - 4:30 p.m</span><br>
+                    <span>Saturdays: 9:00 a.m - 2:00 p.m </span>
+                </div>
+                <div class="phone">
+                    <h4>Phone</h4>
+                    <span>(555) 123-4567</span>
+                </div>
+                <div class="e-mail">
+                    <h4>E-mail:</h4>
+                    <span>gardenofeden@gmail.com</span>
+                </div>
+                <div class="nets">
+                    <div>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form_contact">
+
+                <form action="" id="contactForm">
+                    <div>
+                        <input type="text" name="full_name" placeholder="Full Name*"> 
+                        <span class="error-message" id="full-name-error">*Complete this field*</span>
+                    </div>
+                    <div>
+                        <input type="text" name="e-mail" placeholder="E-mail*">
+                        <span class="error-message" id="email-error">*Complete this field*</span>
+                    </div>
+                    <div>
+                        <textarea name="txt" placeholder="Write your message*"></textarea>
+                        <span class="error-message" id="message-error">*Complete this field*</span>
+                    </div>
+                    <input type="submit" class="send" value="SEND">
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="message">
+        <div class="msg">
+            <p>Thank you for contacting us</p>
+            <button id="accept">Accept</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container_footer">
+
+            <div class="img_logo">
+                <img src="./asset/logo/Logo_Garden_of_Eden.png" alt="">
+            </div>
+
+            <div class="text_contact">
+                <div class="address">
+                    <h4>Address:</h4>
+                    <span>123 Main Street, Apt 4B. Anytown, CA 12345-6789</span>
+                </div>
+                <div class="hour">
+                    <h4>Hours of Operation:</h4>
+                    <span>from Monday to Friday: 8:30 a.m - 4:30 p.m</span><br>
+                    <span>Saturdays: 9:00 a.m - 2:00 p.m </span>
+                </div>
+                <div class="phone">
+                    <h4>Phone</h4>
+                    <span>(555) 123-4567</span>
+                </div>
+                <div class="e-mail">
+                    <h4>E-mail:</h4>
+                    <span>gardenofeden@gmail.com</span>
+                </div>
+                <div class="nets">
+                    <h4>Social networks:</h4>
+                    <div>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <ul>
+                <li><a href="#home" class="select">Home</a></li>
+                <li><a href="#about_us">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <p>©2022 Por Laura Camila Urbano Suarez</p>
+
+    </footer>
+
+
+
+
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
